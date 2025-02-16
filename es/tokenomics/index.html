@@ -1,0 +1,865 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.namerate.tech/es/tokenomics/">
+      
+      
+        <link rel="prev" href="../how-it-works/">
+      
+      
+        <link rel="next" href="../token-flow/">
+      
+      
+      <link rel="icon" href="../../assets/favicon-16x16.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Tokenómica de $NMRT - NameRate</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0a8 8 0 0 1 .701.031C9.444.095 9.99.645 10.16 1.29l.288 1.107c.018.066.079.158.212.224q.347.171.668.386c.123.082.233.09.299.071l1.103-.303c.644-.176 1.392.021 1.82.63q.406.578.704 1.218c.315.675.111 1.422-.364 1.891l-.814.806c-.049.048-.098.147-.088.294q.024.386 0 .772c-.01.147.038.246.088.294l.814.806c.475.469.679 1.216.364 1.891a8 8 0 0 1-.704 1.217c-.428.61-1.176.807-1.82.63l-1.102-.302c-.067-.019-.177-.011-.3.071a6 6 0 0 1-.668.386c-.133.066-.194.158-.211.224l-.29 1.106c-.168.646-.715 1.196-1.458 1.26a8 8 0 0 1-1.402 0c-.743-.064-1.289-.614-1.458-1.26l-.289-1.106c-.018-.066-.079-.158-.212-.224a6 6 0 0 1-.668-.386c-.123-.082-.233-.09-.299-.071l-1.103.303c-.644.176-1.392-.021-1.82-.63a8 8 0 0 1-.704-1.218c-.315-.675-.111-1.422.363-1.891l.815-.806c.05-.048.098-.147.088-.294a6 6 0 0 1 0-.772c.01-.147-.038-.246-.088-.294l-.815-.806C.635 6.045.431 5.298.746 4.623a8 8 0 0 1 .704-1.217c.428-.61 1.176-.807 1.82-.63l1.102.302c.067.019.177.011.3-.071q.321-.215.668-.386c.133-.066.194-.158.211-.224l.29-1.106C6.009.645 6.556.095 7.299.03Q7.646 0 8 0m-.571 1.525c-.036.003-.108.036-.137.146l-.289 1.105c-.147.561-.549.967-.998 1.189q-.26.13-.5.29c-.417.278-.97.423-1.529.27l-1.103-.303c-.109-.03-.175.016-.195.045q-.33.47-.573.99c-.014.031-.021.11.059.19l.815.806c.411.406.562.957.53 1.456a5 5 0 0 0 0 .582c.032.499-.119 1.05-.53 1.456l-.815.806c-.081.08-.073.159-.059.19q.243.52.573.989c.02.03.085.076.195.046l1.102-.303c.56-.153 1.113-.008 1.53.27q.242.16.501.29c.447.222.85.629.997 1.189l.289 1.105c.029.109.101.143.137.146a6.6 6.6 0 0 0 1.142 0c.036-.003.108-.036.137-.146l.289-1.105c.147-.561.549-.967.998-1.189q.26-.13.5-.29c.417-.278.97-.423 1.529-.27l1.103.303c.109.029.175-.016.195-.045q.33-.47.573-.99c.014-.031.021-.11-.059-.19l-.815-.806c-.411-.406-.562-.957-.53-1.456a5 5 0 0 0 0-.582c-.032-.499.119-1.05.53-1.456l.815-.806c.081-.08.073-.159.059-.19a6.5 6.5 0 0 0-.573-.989c-.02-.03-.085-.076-.195-.046l-1.102.303c-.56.153-1.113.008-1.53-.27a4.4 4.4 0 0 0-.501-.29c-.447-.222-.85-.629-.997-1.189l-.289-1.105c-.029-.11-.101-.143-.137-.146a6.6 6.6 0 0 0-1.142 0M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0M9.5 8a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 9.5 8"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tokenomica-de-nmrt" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../" title="NameRate" class="md-header__button md-logo" aria-label="NameRate" data-md-component="logo">
+      
+  <img src="../../assets/nmrt_logo_round_full_mini.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NameRate
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tokenómica de $NMRT
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../tokenomics/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ru/tokenomics/" hreflang="ru" class="md-select__link">
+              Русский
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="NameRate" class="md-nav__button md-logo" aria-label="NameRate" data-md-component="logo">
+      
+  <img src="../../assets/nmrt_logo_round_full_mini.png" alt="logo">
+
+    </a>
+    NameRate
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Un Nombre Importa
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre el Proyecto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advantages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Principales Ventajas de NameRate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-it-works/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cómo Funciona NameRate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Tokenómica de $NMRT
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Tokenómica de $NMRT
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#para-que-se-necesita-nmrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Para qué se necesita $NMRT?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emision-total-de-nmrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emisión Total de $NMRT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emision-circulante-de-nmrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emisión Circulante de $NMRT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distribucion-de-nmrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distribución de $NMRT
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Distribución de $NMRT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tge-y-vesting" class="md-nav__link">
+    <span class="md-ellipsis">
+      TGE y Vesting
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../token-flow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Circulación de Tokens $NMRT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../speculation-prevention/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Medidas Contra la Especulación
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../API/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NameRate API
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new" title="Will be added later">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Presale-Whitelist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Presale Whitelist
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new" title="Will be added later">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dictionary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Términos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#para-que-se-necesita-nmrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Para qué se necesita $NMRT?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emision-total-de-nmrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emisión Total de $NMRT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emision-circulante-de-nmrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emisión Circulante de $NMRT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distribucion-de-nmrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distribución de $NMRT
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Distribución de $NMRT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tge-y-vesting" class="md-nav__link">
+    <span class="md-ellipsis">
+      TGE y Vesting
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="tokenomica-de-nmrt"><strong>Tokenómica de $NMRT</strong></h1>
+<p><strong>El token $NMRT</strong> es la base de la economía interna del proyecto NameRate. No solo establece el valor, sino que también cumple funciones utilitarias.</p>
+<h3 id="para-que-se-necesita-nmrt">¿Para qué se necesita $NMRT?</h3>
+<ul>
+<li>Recompensar a los usuarios por participar en el entrenamiento del algoritmo</li>
+<li>Cubrir las comisiones de la blockchain TON durante la tokenización de activos</li>
+<li>Aceptar pagos por el uso de la API de NameRate</li>
+</ul>
+<p><strong>Utilidad del token</strong>:</p>
+<ul>
+<li>$NMRT no es solo una recompensa, sino una herramienta para simplificar el trabajo con TON. Los usuarios pueden pagar las comisiones de la blockchain TON, convirtiendo efectivamente el proceso de tokenización en una operación "gratuita".</li>
+</ul>
+<hr />
+<h3 id="emision-total-de-nmrt"><strong>Emisión Total de $NMRT</strong></h3>
+<p>La cantidad total de tokens está limitada y será <strong>aproximadamente</strong> <strong>10 mil millones de $NMRT</strong></p>
+<div class="admonition info">
+<p class="admonition-title">¿Por qué 'aproximadamente'?</p>
+<p>La cantidad de $NMRT emitida <strong>se fijará</strong> y se volverá inmutable <strong>en el momento del TGE</strong>. Hasta ese momento, se otorgan libremente en @NameRateBot como recompensas y a través de Airdrops. La economía del proyecto se basa en la estimación de que, para el momento del TGE, se deberán emitir 10 mil millones de $NMRT ± 10%</p>
+<div class="admonition failure">
+<p class="admonition-title">Mecanismos de Contención</p>
+<p>Es posible que, al acercarse a esta cifra, utilicemos mecanismos de mercado para contener la emisión: salida anticipada al mercado, reducción de nuevas recompensas, etc.</p>
+</div>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Off-Chain vs On-Chain $NMRT</p>
+<p>Actualmente, los tokens se otorgan únicamente en la aplicación @NameRateBot (off-chain). La emisión de monedas $NMRT en la blockchain TON (on-chain) y los pagos a las carteras de los usuarios se realizarán justo antes de que el token se liste en los exchanges. Esto permitirá un mejor control de la emisión circulante y asegurará un crecimiento saludable del precio (ver distribución)</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Modelo Deflacionario</p>
+<p>No es posible emitir nuevos tokens después del TGE</p>
+</div>
+<h3 id="emision-circulante-de-nmrt">Emisión Circulante de $NMRT</h3>
+<p>Hay que entender que no toda la cantidad de tokens estará disponible para la libre circulación en el mercado. Limitaremos la emisión circulante para estabilizar y fortalecer el precio.</p>
+<ul>
+<li>El 20% de los tokens se asignará a <strong>pools de liquidez</strong>:</li>
+<li>
+<div class="admonition info">
+<p class="admonition-title">Pools de Liquidez NMRT</p>
+<ul>
+<li>Pool externo (15%) – para prevenir manipulaciones y asegurar un crecimiento saludable.</li>
+<li>Pool interno (5%) – técnico, para el intercambio automático a TON, a fin de cubrir las comisiones por la emisión de nombres NFT.</li>
+</ul>
+</div>
+</li>
+<li>
+<p>El 40% de los $NMRT de los usuarios no estará disponible de inmediato, sino que se liberará después de un mes (vesting)</p>
+</li>
+</ul>
+<hr />
+<h2 id="distribucion-de-nmrt"><strong>Distribución de $NMRT</strong></h2>
+<p>Los tokens $NMRT se distribuyen de la siguiente manera:</p>
+<p><img alt="" src="../../images/NameRate_Distribution_Light.png#only-light" />
+<img alt="" src="../../images/NameRate_Distribution_Dark_.png#only-dark" /></p>
+<p><strong>Asignación a la Comunidad (40%):</strong></p>
+<p>Emisión distribuida a los usuarios a través de <a href="https://t.me/NameRateBot/namerate?startapp=PkheBIyiTxCEJuqDKKmzNJ">@NameRateBot</a> – la porción de nuestra querida comunidad</p>
+<ul>
+<li>Rewards – tokens por ayudar a entrenar el algoritmo, recompensas por tareas y más</li>
+<li>Name Rate – recepción inicial de tokens por valorar tu nombre</li>
+<li>Model Update – tokens por revaloración de tu apodo (se realiza con cada nueva versión del modelo)</li>
+</ul>
+<p><strong>Private Sale (15%)</strong>:</p>
+<ul>
+<li>Venta de una parte de la emisión en dos rondas para inversores tempranos</li>
+<li>Solo se permite la participación de usuarios que hayan sido incluidos en el WhiteList</li>
+<li>Financiamiento para el desarrollo del proyecto, marketing y formación de la liquidez inicial</li>
+</ul>
+<p><strong>Liquidity (20%)</strong>:</p>
+<ul>
+<li>Pools de liquidez para mantener la estabilidad y disponibilidad del token en el mercado</li>
+<li>Pool técnico para el intercambio NMRT-TON, a fin de compensar las comisiones de la red por la transferencia de los nombres de los usuarios a on-chain </li>
+</ul>
+<p><strong>Foundations &amp; Marketmakers (10%)</strong>:</p>
+<p>Reservado para el crecimiento estratégico a largo plazo, asociaciones con actores importantes del mercado y una salida exitosa a los exchanges</p>
+<p><strong>Team &amp; Operations (15%)</strong>:</p>
+<ul>
+<li>Recompensa al equipo, cobertura de gastos operativos y desarrollo de la infraestructura del proyecto</li>
+</ul>
+<hr />
+<h3 id="tge-y-vesting">TGE y Vesting</h3>
+<p><strong>TGE (Token Generation Event)</strong> – evento de emisión y primera distribución de los tokens del proyecto. En ese momento, los tokens se vuelven disponibles para su uso, negociación en los exchanges o distribución entre los participantes.</p>
+<p><strong>Vesting</strong> – mecanismo de desbloqueo gradual de tokens durante un período determinado. Se utiliza para proteger contra ventas masivas por parte de grandes poseedores y garantizar la estabilidad a largo plazo del proyecto.</p>
+<div class="admonition info">
+<p class="admonition-title">¿Cuánto tiempo dura el vesting de $NMRT?</p>
+<p>Normalmente, el vesting dura alrededor de seis meses, pero no queremos demorar demasiado los pagos, por lo que planeamos un vesting "rápido" durante el primer mes después del TGE </p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Ejemplo: ¿Cuántos $NMRT recibiré y cuándo?</p>
+<p>Por ejemplo, recibiste 500 $NMRT por valorar tu nombre en @NameRateBot, 1000 por completar tareas y además participaste en la segunda ronda del Presale.</p>
+<p>En ese caso, en el momento del TGE (antes de que el token se liste en los exchanges) recibirás 1000 $NMRT + lo que compraste en el Presale (onda 2), y otros 500 $NMRT se liberarán para ti después de un mes.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../how-it-works/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Cómo Funciona NameRate">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Cómo Funciona NameRate
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../token-flow/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Circulación de Tokens $NMRT">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Circulación de Tokens $NMRT
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.instant", "navigation.expand", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
