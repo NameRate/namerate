@@ -1,5 +1,5 @@
 site_name: NameRate
-site_url: https://namerate.github.io/namerate
+site_url: http://docs.namerate.tech
 #docs_dir: '/docs'
 
 theme:
@@ -90,8 +90,6 @@ plugins:
           - locale: ru
             name: Русский
             build: true
-            link: /namerate/
           - locale: es
             name: Español
             build: true
-            link: /namerate/
