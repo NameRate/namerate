@@ -6,7 +6,9 @@
 
 NameRate уже запущен в формате Telegram Mini App, где доступна реферальная программа и первые задания, так что вы уже можете копить свои токены. А обсуждения ведутся в нашем комьюнити-канале.
 
-[NameRate App :fontawesome-solid-paper-plane:](https://t.me/NameRateBot/namerate?startapp=PkheBIyiTxCEJuqDKKmzNJ){ .md-button } [NameRate Community :fontawesome-solid-paper-plane:](https://t.me/+eANXlFDqGZ1iZTAy){ .md-button }
+[NameRate App :fontawesome-solid-paper-plane:](https://t.me/NameRateBot/namerate?startapp=PkheBIyiTxCEJuqDKKmzNJ){ .md-button }
+
+[NameRate Community :fontawesome-solid-paper-plane:](https://t.me/+eANXlFDqGZ1iZTAy){ .md-button }
 
 <div class="grid cards" markdown>
 

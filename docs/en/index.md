@@ -6,7 +6,9 @@ We replaced the cumbersome WhitePaper with a convenient documentation format. We
 
 NameRate has already been launched as a Telegram Mini App, where a referral program and initial tasks are available, so you can already start accumulating your tokens. Discussions are held in our community channel.
 
-[NameRate App :fontawesome-solid-paper-plane:](https://t.me/NameRateBot/namerate?startapp=PkheBIyiTxCEJuqDKKmzNJ){ .md-button } [NameRate Community :fontawesome-solid-paper-plane:](https://t.me/+eANXlFDqGZ1iZTAy){ .md-button }
+[NameRate App :fontawesome-solid-paper-plane:](https://t.me/NameRateBot/namerate?startapp=PkheBIyiTxCEJuqDKKmzNJ){ .md-button }
+
+[NameRate Community :fontawesome-solid-paper-plane:](https://t.me/+eANXlFDqGZ1iZTAy){ .md-button }
 
 <div class="grid cards" markdown>
 

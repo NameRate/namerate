@@ -1,5 +1,5 @@
 site_name: NameRate
-site_url: https://docs.namerate.tech
+site_url: https://namerate.github.io/namerate
 #docs_dir: '/docs'
 
 theme:
@@ -44,6 +44,10 @@ extra:
     new: Will be added later
     deprecated: Deprecated
 
+  analytics:
+    provider: google
+    property: G-9P912TGMH2
+
 markdown_extensions:
   - admonition
   - pymdownx.superfences:
@@ -86,6 +90,8 @@ plugins:
           - locale: ru
             name: Русский
             build: true
+            link: /namerate/
           - locale: es
             name: Español
             build: true
+            link: /namerate/
