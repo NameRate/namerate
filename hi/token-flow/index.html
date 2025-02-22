@@ -1,0 +1,873 @@
+
+<!doctype html>
+<html lang="hi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.namerate.tech/hi/token-flow/">
+      
+      
+        <link rel="prev" href="../tokenomics/">
+      
+      
+        <link rel="next" href="../speculation-prevention/">
+      
+      
+      <link rel="icon" href="../../assets/favicon-16x16.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>$NMRT टोकन का परिसंचरण - NameRate</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0a8 8 0 0 1 .701.031C9.444.095 9.99.645 10.16 1.29l.288 1.107c.018.066.079.158.212.224q.347.171.668.386c.123.082.233.09.299.071l1.103-.303c.644-.176 1.392.021 1.82.63q.406.578.704 1.218c.315.675.111 1.422-.364 1.891l-.814.806c-.049.048-.098.147-.088.294q.024.386 0 .772c-.01.147.038.246.088.294l.814.806c.475.469.679 1.216.364 1.891a8 8 0 0 1-.704 1.217c-.428.61-1.176.807-1.82.63l-1.102-.302c-.067-.019-.177-.011-.3.071a6 6 0 0 1-.668.386c-.133.066-.194.158-.211.224l-.29 1.106c-.168.646-.715 1.196-1.458 1.26a8 8 0 0 1-1.402 0c-.743-.064-1.289-.614-1.458-1.26l-.289-1.106c-.018-.066-.079-.158-.212-.224a6 6 0 0 1-.668-.386c-.123-.082-.233-.09-.299-.071l-1.103.303c-.644.176-1.392-.021-1.82-.63a8 8 0 0 1-.704-1.218c-.315-.675-.111-1.422.363-1.891l.815-.806c.05-.048.098-.147.088-.294a6 6 0 0 1 0-.772c.01-.147-.038-.246-.088-.294l-.815-.806C.635 6.045.431 5.298.746 4.623a8 8 0 0 1 .704-1.217c.428-.61 1.176-.807 1.82-.63l1.102.302c.067.019.177.011.3-.071q.321-.215.668-.386c.133-.066.194-.158.211-.224l.29-1.106C6.009.645 6.556.095 7.299.03Q7.646 0 8 0m-.571 1.525c-.036.003-.108.036-.137.146l-.289 1.105c-.147.561-.549.967-.998 1.189q-.26.13-.5.29c-.417.278-.97.423-1.529.27l-1.103-.303c-.109-.03-.175.016-.195.045q-.33.47-.573.99c-.014.031-.021.11.059.19l.815.806c.411.406.562.957.53 1.456a5 5 0 0 0 0 .582c.032.499-.119 1.05-.53 1.456l-.815.806c-.081.08-.073.159-.059.19q.243.52.573.989c.02.03.085.076.195.046l1.102-.303c.56-.153 1.113-.008 1.53.27q.242.16.501.29c.447.222.85.629.997 1.189l.289 1.105c.029.109.101.143.137.146a6.6 6.6 0 0 0 1.142 0c.036-.003.108-.036.137-.146l.289-1.105c.147-.561.549-.967.998-1.189q.26-.13.5-.29c.417-.278.97-.423 1.529-.27l1.103.303c.109.029.175-.016.195-.045q.33-.47.573-.99c.014-.031.021-.11-.059-.19l-.815-.806c-.411-.406-.562-.957-.53-1.456a5 5 0 0 0 0-.582c-.032-.499.119-1.05.53-1.456l.815-.806c.081-.08.073-.159.059-.19a6.5 6.5 0 0 0-.573-.989c-.02-.03-.085-.076-.195-.046l-1.102.303c-.56.153-1.113.008-1.53-.27a4.4 4.4 0 0 0-.501-.29c-.447-.222-.85-.629-.997-1.189l-.289-1.105c-.029-.11-.101-.143-.137-.146a6.6 6.6 0 0 0-1.142 0M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0M9.5 8a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 9.5 8"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-9P912TGMH2"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-9P912TGMH2",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-9P912TGMH2",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#nmrt" class="md-skip">
+          विषय पर बढ़ें
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="शीर्षक">
+    <a href="../" title="NameRate" class="md-header__button md-logo" aria-label="NameRate" data-md-component="logo">
+      
+  <img src="../../assets/nmrt_logo_round_full_mini.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NameRate
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              $NMRT टोकन का परिसंचरण
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="भाषा चुनें">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../token-flow/" hreflang="en" class="md-select__link">
+              🇬🇧 English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../de/token-flow/" hreflang="de" class="md-select__link">
+              🇩🇪 Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ru/token-flow/" hreflang="ru" class="md-select__link">
+              🇷🇺 Русский
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/token-flow/" hreflang="es" class="md-select__link">
+              🇪🇸 Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ar/token-flow/" hreflang="ar" class="md-select__link">
+              🇦🇪 Arabic
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="hi" class="md-select__link">
+              🇮🇳 हिंदी
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../id/token-flow/" hreflang="id" class="md-select__link">
+              🇮🇩 Bahasa Indonesia
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="खोज" placeholder="खोज" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="खोजें">
+        
+        <button type="reset" class="md-search__icon md-icon" title="हटा दें" aria-label="हटा दें" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            खोज शुरू करें
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="नैविगेशन" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="NameRate" class="md-nav__button md-logo" aria-label="NameRate" data-md-component="logo">
+      
+  <img src="../../assets/nmrt_logo_round_full_mini.png" alt="logo">
+
+    </a>
+    NameRate
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    एक नाम मायने रखता है
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    परियोजना के बारे में
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advantages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NameRate के प्रमुख लाभ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-it-works/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NameRate कैसे काम करता है
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tokenomics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    $NMRT की टोकनोमिक्स
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    $NMRT टोकन का परिसंचरण
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    $NMRT टोकन का परिसंचरण
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="विषय - सूची">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      विषय - सूची
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nmrt_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      $NMRT कैसे प्राप्त करें
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="$NMRT कैसे प्राप्त करें">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#community" class="md-nav__link">
+    <span class="md-ellipsis">
+      Community के लिए
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      निवेशकों के लिए
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nmrt_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      $NMRT का परिसंचरण
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nmrt_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      $NMRT का अन्य उपयोग
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../speculation-prevention/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    सट्टेबाजी रोकने के उपाय
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    रोडमैप
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../API/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NameRate API
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new" title="Will be added later">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Presale-Whitelist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Presale Whitelist
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new" title="Will be added later">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dictionary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    शब्दावली
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="विषय - सूची">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      विषय - सूची
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nmrt_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      $NMRT कैसे प्राप्त करें
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="$NMRT कैसे प्राप्त करें">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#community" class="md-nav__link">
+    <span class="md-ellipsis">
+      Community के लिए
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      निवेशकों के लिए
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nmrt_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      $NMRT का परिसंचरण
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nmrt_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      $NMRT का अन्य उपयोग
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="nmrt"><strong>$NMRT टोकन का परिसंचरण</strong></h1>
+<p>$NMRT की टोकनोमिक्स इस तरह बनाई गई है कि यह उपयोगिता, निष्पक्ष वितरण और दीर्घकालिक मूल्य वृद्धि के बीच संतुलन सुनिश्चित करे। यह अंतिम उपयोगकर्ताओं और निवेशकों दोनों के लिए लक्षित है, जिससे दोनों वर्गों को अधिकतम लाभ मिलता है।</p>
+<hr />
+<h2 id="nmrt_1">$NMRT कैसे प्राप्त करें</h2>
+<h5 id="community">Community के लिए</h5>
+<p>टोकन <strong>मुफ्त में</strong> <a href="https://t.me/NameRateBot/namerate">Telegram MiniApp NameRate</a> में इनाम के रूप में दिए जाते हैं:</p>
+<ul>
+<li><strong>निकनेम का प्रारंभिक मूल्यांकन:</strong> ऐप में पहली बार प्रवेश करते ही आपको आपके Telegram निकनेम का मूल्यांकन करने के लिए कुछ $NMRT मिलते हैं (यदि …)</li>
+<li>
+<div class="admonition info">
+<p class="admonition-title">नया एल्गोरिदम - नई इनाम</p>
+  प्रत्येक नई एल्गोरिदम वर्शन के जारी होने पर, नामों का पुनर्मूल्यांकन किया जाता है और टोकन फिर से प्रदान किए जाते हैं। पहले से प्राप्त $NMRT काटे नहीं जाते।</div>
+</li>
+<li><strong>अन्य नामों के लिए मतदान:</strong> गेम मैकेनिज्म, जो हमें एल्गोरिदम को मान्य करने में सहायता करते हैं</li>
+<li>
+<div class="admonition info">
+<p class="admonition-title">निकनेम स्कोरिंग में सहायता</p>
+  आज एक ऐसी मैकेनिज्म लागू की गई है, जिसके तहत आप अन्य निकनेम का (लाइक-डिसलाइक) मूल्यांकन कर सकते हैं और इसके लिए इनाम प्राप्त कर सकते हैं। प्रति दिन 10 वोटों की सीमा।</div>
+</li>
+<li><strong>कार्य पूरे करना:</strong> यह हमारे प्रोजेक्ट के प्रचार के लिए महत्वपूर्ण है</li>
+<li><strong>आपके दोस्त</strong>, जो आपके लिंक से आएंगे</li>
+<li>
+<div class="admonition info">
+<p class="admonition-title">रेफरल प्रोग्राम</p>
+  तुरंत बहुत सारे $NMRT प्राप्त करने का सबसे प्रभावी तरीका। अपने दोस्तों को सीधे आमंत्रित करें या अपने सोशल मीडिया पर रेफरल लिंक साझा करें।</div>
+</li>
+</ul>
+<h5 id="_1">निवेशकों के लिए</h5>
+<p>टोकन को लिस्टिंग से पहले दो Presale राउंडों के दौरान खरीदा जा सकेगा। प्रोजेक्ट में भाग लेने वाला कोई भी उपयोगकर्ता, जो आवेदन करता है और WhiteList में स्वीकृत होता है, निवेशक बन सकता है।</p>
+<div class="admonition info">
+<p class="admonition-title">NameRate Private Sale</p>
+<p>Presale – टोकन को सबसे अच्छे मूल्य पर खरीदने का अवसर, बाजार में आने से पहले। केवल WhiteList में शामिल प्रतिभागियों को अनुमति दी जाती है। WhiteList के खुलने के बारे में हम ऐप और हमारे <a href="https://t.me/+eANXlFDqGZ1iZTAy">tg कम्युनिटी</a> में अलग से सूचना देंगे।</p>
+</div>
+<hr />
+<h2 id="nmrt_2">$NMRT का परिसंचरण</h2>
+<p><img alt="" src="../../images/NameRate_Usage_Light.png#only-light" />
+<img alt="" src="../../images/NameRate_Usage_Dark.png#only-dark" /></p>
+<p>प्रारंभ में, Community के लिए टोकन @NameRateBot में $NMRT बैलेंस के अनुसार प्रदान किए जाएंगे। लिस्टिंग के बाद, प्रतिभागी इन्हें अपनी इच्छा अनुसार प्रबंधित कर सकेंगे, जिनमें निकासी और एक्सचेंज में व्यापार शामिल है। जिन टोकन का उपयोग निकनेम टोकनाइज़ेशन के लिए किया गया है, उन्हें नेटवर्क फीस की भरपाई के लिए खर्च किया जाएगा।</p>
+<p>बाहरी पार्टनरों (TON मार्केटप्लेस, Telegram का कोर प्लेटफ़ॉर्म, NFT ट्रेडर्स आदि) के साथ एकीकरण NameRate API के माध्यम से किया जाता है। API का कोई भी उपयोग $NMRT टोकन में भुगतान की मांग करता है, जिन्हें बाजार में खरीदा जा सकता है। API उपयोग के लिए प्राप्त टोकन आंशिक रूप से जलाए जाते हैं और आंशिक रूप से मॉडल वैलिडेशन में सहायता के रूप में इनाम स्वरूप परिसंचरण में वापस आ जाते हैं।</p>
+<div class="admonition info">
+<p class="admonition-title">मांग को प्रोत्साहन</p>
+<p>कोई भी बाहरी एकीकरण पार्टनर को खुले बाजार में टोकन खरीदने के लिए मजबूर करता है, जिससे इसकी मांग बनी रहती है। जलाने का तंत्र $NMRT के दीर्घकालिक मूल्य को मजबूत करने के लिए परिसंचरण आपूर्ति को कम करता है।</p>
+</div>
+<details class="info annotate">
+<summary>जलाना $NMRT</summary>
+<p>यह कृत्रिम कमी को प्रोत्साहित करने के लिए है। प्रत्येक जलाने की प्रक्रिया अलग से घोषित की जाती है और टोकन को एक सार्वजनिक "मृत" (1) पते पर भेजकर की जाती है। केवल उपयोग के लिए प्राप्त टोकन ही जलाए जाते हैं। जलाए जाने वाले टोकन का अनुपात बदल सकता है: प्रारंभिक चरण में 0%, बाद में 50% तक।</p>
+</details>
+<ol>
+<li>"मृत" पता – ऐसा पता जिसके एक्सेस कुंजियाँ नष्ट कर दी गई हों या अवैध हो। सभी लेनदेन देख सकते हैं (या उनकी अनुपस्थिति), लेकिन किसी को भी पहुँच नहीं होती।</li>
+</ol>
+<h2 id="nmrt_3"><strong>$NMRT का अन्य उपयोग</strong></h2>
+<p><strong>एसेट टोकनाइज़ेशन</strong>: $NMRT का उपयोग निकनेम और डोमेन के टोकनाइज़ेशन के दौरान TON फीस को कवर (या आंशिक रूप से कवर) करने के लिए किया जाता है</p>
+<details class="note annotate">
+<summary>छद्म-मुफ़्त ऑपरेशन</summary>
+<p>लक्ष्य समाधान में $NMRT टोकन स्वचालित रूप से TON में <strong>आंतरिक लिक्विडिटी पूल</strong> (1) के माध्यम से बदले जाते हैं, और फिर TON नेटवर्क फीस के भुगतान के लिए उपयोग किए जाते हैं।</p>
+</details>
+<ol>
+<li>आंतरिक लिक्विडिटी पूल TON-$NMRT टोकन जोड़ी का एक लचीला भंडार है, जो तकनीकी विनिमय के लिए समान मौद्रिक मूल्य पर है। आंतरिक पूल में टोकन का अनुपात सार्वजनिक पूल में अनुपात के परिवर्तन पर प्रतिक्रिया देता है। विनिमय करने वाला एकमात्र एजेंट NameRate प्लेटफ़ॉर्म है।</li>
+</ol>
+<p><strong>प्लेटफ़ॉर्म एकीकरण</strong>: $NMRT टोकन का उपयोग TON पारिस्थितिकी तंत्र में बाहरी प्लेटफ़ॉर्म्स (NameRate API) के साथ एकीकरण में किया जा सकता है।</p>
+<p><strong>स्टेकिंग</strong>: TGE के बाद DEX (Stone.fi) पर स्टेकिंग पूल बनाए जाएंगे, जहाँ उपयोगकर्ता बढ़ी हुई इनाम प्राप्त कर सकेंगे।</p>
+<p><strong>अन्य:</strong> इसमें प्रमो पार्टनर्स के लिए $NMRT में भुगतान, टोकनाइज़्ड एसेट्स के मार्केटप्लेस में खरीदारी और P2P सुरक्षित लेनदेन के लिए शुल्क का भुगतान शामिल है। ये सभी पहलें डिस्कवरी चरण में हैं और दूसरी प्राथमिकता में योजना बनाई गई हैं।</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="फुटर" >
+        
+          
+          <a href="../tokenomics/" class="md-footer__link md-footer__link--prev" aria-label="पिछला: $NMRT की टोकनोमिक्स">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                पिछला
+              </span>
+              <div class="md-ellipsis">
+                $NMRT की टोकनोमिक्स
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../speculation-prevention/" class="md-footer__link md-footer__link--next" aria-label="आगामी: सट्टेबाजी रोकने के उपाय">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                आगामी
+              </span>
+              <div class="md-ellipsis">
+                सट्टेबाजी रोकने के उपाय
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.instant", "navigation.expand", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "\u0915\u094d\u0932\u093f\u092a\u092c\u094b\u0930\u094d\u0921 \u092a\u0930 \u0915\u0949\u092a\u0940 \u0915\u0930 \u0926\u093f\u092f\u093e \u0917\u092f\u093e", "clipboard.copy": "\u0915\u094d\u0932\u093f\u092a\u092c\u094b\u0930\u094d\u0921 \u092a\u0930 \u0915\u0949\u092a\u0940 \u0915\u0930\u0947\u0902", "search.result.more.one": "1 \u0914\u0930 \u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u092a\u0930", "search.result.more.other": "# \u0914\u0930 \u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u092a\u0930", "search.result.none": "\u0915\u094b\u0908 \u092e\u093f\u0932\u093e\u0928 \u0921\u0949\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f \u0928\u0939\u0940\u0902", "search.result.one": "1 \u092e\u093f\u0932\u093e\u0928 \u0921\u0949\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f", "search.result.other": "# \u092e\u093f\u0932\u093e\u0928 \u0921\u093e\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f\u094d\u0938", "search.result.placeholder": "\u0916\u094b\u091c \u0936\u0941\u0930\u0942 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091f\u093e\u0907\u092a \u0915\u0930\u0947\u0902", "search.result.term.missing": "\u095a\u093e\u092f\u092c", "select.version": "\u0935\u0930\u094d\u0936\u0928 \u091a\u0941\u0928\u0947\u0902"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>

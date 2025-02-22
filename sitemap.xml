@@ -2,290 +2,1010 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://docs.namerate.tech/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/API/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/API/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/API/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/API/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/API/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/API/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/API/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/API/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/Presale-Whitelist/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/Presale-Whitelist/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/Presale-Whitelist/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/Presale-Whitelist/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/about/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/about/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/about/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/about/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/about/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/about/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/about/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/about/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/advantages/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/advantages/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/advantages/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/advantages/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/dictionary/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/dictionary/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/dictionary/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/dictionary/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/how-it-works/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/how-it-works/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/how-it-works/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/how-it-works/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/other/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/other/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/other/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/other/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/other/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/other/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/other/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/other/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/roadmap/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/roadmap/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/speculation-prevention/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/speculation-prevention/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/speculation-prevention/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/speculation-prevention/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/token-flow/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/token-flow/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/token-flow/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/token-flow/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/tokenomics/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/tokenomics/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/tokenomics/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/API/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/API/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/API/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/API/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/API/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/API/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/API/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/API/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/Presale-Whitelist/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/Presale-Whitelist/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/about/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/about/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/about/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/about/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/about/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/about/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/about/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/advantages/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/advantages/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/dictionary/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/dictionary/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/how-it-works/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/how-it-works/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/other/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/other/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/other/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/other/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/other/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/other/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/other/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/other/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/roadmap/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/roadmap/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/speculation-prevention/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/speculation-prevention/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/token-flow/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/token-flow/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/de/tokenomics/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/tokenomics/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/tokenomics/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/API/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/API/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/API/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/API/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/API/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/API/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/API/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/API/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/Presale-Whitelist/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/Presale-Whitelist/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/Presale-Whitelist/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/Presale-Whitelist/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/about/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/about/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/about/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/about/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/about/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/about/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/about/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/about/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/advantages/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/advantages/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/advantages/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/advantages/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/dictionary/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/dictionary/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/dictionary/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/dictionary/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/how-it-works/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/how-it-works/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/how-it-works/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/how-it-works/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/other/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/other/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/other/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/other/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/other/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/other/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/other/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/other/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/roadmap/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/roadmap/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/speculation-prevention/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/speculation-prevention/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/speculation-prevention/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/speculation-prevention/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/token-flow/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/token-flow/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/token-flow/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/token-flow/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/ru/tokenomics/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/tokenomics/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/tokenomics/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/tokenomics/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/API/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/API/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/API/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/API/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/API/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/API/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/API/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/API/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/Presale-Whitelist/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/Presale-Whitelist/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/Presale-Whitelist/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/Presale-Whitelist/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/about/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/about/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/about/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/about/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/about/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/about/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/about/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/about/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/advantages/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/advantages/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/advantages/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/advantages/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/dictionary/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/dictionary/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/dictionary/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/dictionary/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/how-it-works/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/how-it-works/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/how-it-works/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/how-it-works/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/other/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/other/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/other/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/other/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/other/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/other/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/other/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/other/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/roadmap/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/roadmap/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/speculation-prevention/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/speculation-prevention/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/speculation-prevention/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/speculation-prevention/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/token-flow/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/token-flow/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/token-flow/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/token-flow/"/>
     </url>
     <url>
         <loc>https://docs.namerate.tech/es/tokenomics/</loc>
-        <lastmod>2025-02-17</lastmod>
+        <lastmod>2025-02-22</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/tokenomics/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/tokenomics/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/API/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/API/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/API/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/API/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/API/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/API/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/API/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/API/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/Presale-Whitelist/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/Presale-Whitelist/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/about/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/about/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/about/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/about/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/about/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/about/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/about/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/advantages/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/advantages/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/dictionary/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/dictionary/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/how-it-works/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/how-it-works/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/other/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/other/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/other/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/other/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/other/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/other/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/other/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/other/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/roadmap/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/roadmap/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/speculation-prevention/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/speculation-prevention/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/token-flow/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/token-flow/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/ar/tokenomics/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/tokenomics/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/API/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/API/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/API/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/API/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/API/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/API/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/API/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/API/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/Presale-Whitelist/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/Presale-Whitelist/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/about/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/about/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/about/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/about/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/about/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/about/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/about/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/advantages/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/advantages/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/dictionary/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/dictionary/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/how-it-works/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/how-it-works/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/other/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/other/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/other/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/other/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/other/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/other/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/other/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/other/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/roadmap/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/roadmap/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/speculation-prevention/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/speculation-prevention/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/token-flow/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/token-flow/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/hi/tokenomics/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/tokenomics/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/API/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/API/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/API/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/API/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/API/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/API/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/API/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/API/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/Presale-Whitelist/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/Presale-Whitelist/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/Presale-Whitelist/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/about/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/about/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/about/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/about/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/about/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/about/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/about/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/advantages/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/advantages/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/advantages/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/dictionary/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/dictionary/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/dictionary/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/how-it-works/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/how-it-works/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/other/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/other/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/other/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/other/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/other/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/other/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/other/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/other/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/roadmap/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/roadmap/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/roadmap/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/speculation-prevention/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/speculation-prevention/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/speculation-prevention/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/token-flow/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/token-flow/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/token-flow/"/>
+    </url>
+    <url>
+        <loc>https://docs.namerate.tech/id/tokenomics/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://docs.namerate.tech/id/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://docs.namerate.tech/ar/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.namerate.tech/de/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.namerate.tech/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.namerate.tech/es/tokenomics/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://docs.namerate.tech/hi/tokenomics/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://docs.namerate.tech/ru/tokenomics/"/>
     </url>
 </urlset>

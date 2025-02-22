@@ -1,0 +1,960 @@
+
+<!doctype html>
+<html lang="hi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.namerate.tech/hi/how-it-works/">
+      
+      
+        <link rel="prev" href="../advantages/">
+      
+      
+        <link rel="next" href="../tokenomics/">
+      
+      
+      <link rel="icon" href="../../assets/favicon-16x16.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>NameRate कैसे काम करता है - NameRate</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0a8 8 0 0 1 .701.031C9.444.095 9.99.645 10.16 1.29l.288 1.107c.018.066.079.158.212.224q.347.171.668.386c.123.082.233.09.299.071l1.103-.303c.644-.176 1.392.021 1.82.63q.406.578.704 1.218c.315.675.111 1.422-.364 1.891l-.814.806c-.049.048-.098.147-.088.294q.024.386 0 .772c-.01.147.038.246.088.294l.814.806c.475.469.679 1.216.364 1.891a8 8 0 0 1-.704 1.217c-.428.61-1.176.807-1.82.63l-1.102-.302c-.067-.019-.177-.011-.3.071a6 6 0 0 1-.668.386c-.133.066-.194.158-.211.224l-.29 1.106c-.168.646-.715 1.196-1.458 1.26a8 8 0 0 1-1.402 0c-.743-.064-1.289-.614-1.458-1.26l-.289-1.106c-.018-.066-.079-.158-.212-.224a6 6 0 0 1-.668-.386c-.123-.082-.233-.09-.299-.071l-1.103.303c-.644.176-1.392-.021-1.82-.63a8 8 0 0 1-.704-1.218c-.315-.675-.111-1.422.363-1.891l.815-.806c.05-.048.098-.147.088-.294a6 6 0 0 1 0-.772c.01-.147-.038-.246-.088-.294l-.815-.806C.635 6.045.431 5.298.746 4.623a8 8 0 0 1 .704-1.217c.428-.61 1.176-.807 1.82-.63l1.102.302c.067.019.177.011.3-.071q.321-.215.668-.386c.133-.066.194-.158.211-.224l.29-1.106C6.009.645 6.556.095 7.299.03Q7.646 0 8 0m-.571 1.525c-.036.003-.108.036-.137.146l-.289 1.105c-.147.561-.549.967-.998 1.189q-.26.13-.5.29c-.417.278-.97.423-1.529.27l-1.103-.303c-.109-.03-.175.016-.195.045q-.33.47-.573.99c-.014.031-.021.11.059.19l.815.806c.411.406.562.957.53 1.456a5 5 0 0 0 0 .582c.032.499-.119 1.05-.53 1.456l-.815.806c-.081.08-.073.159-.059.19q.243.52.573.989c.02.03.085.076.195.046l1.102-.303c.56-.153 1.113-.008 1.53.27q.242.16.501.29c.447.222.85.629.997 1.189l.289 1.105c.029.109.101.143.137.146a6.6 6.6 0 0 0 1.142 0c.036-.003.108-.036.137-.146l.289-1.105c.147-.561.549-.967.998-1.189q.26-.13.5-.29c.417-.278.97-.423 1.529-.27l1.103.303c.109.029.175-.016.195-.045q.33-.47.573-.99c.014-.031.021-.11-.059-.19l-.815-.806c-.411-.406-.562-.957-.53-1.456a5 5 0 0 0 0-.582c-.032-.499.119-1.05.53-1.456l.815-.806c.081-.08.073-.159.059-.19a6.5 6.5 0 0 0-.573-.989c-.02-.03-.085-.076-.195-.046l-1.102.303c-.56.153-1.113.008-1.53-.27a4.4 4.4 0 0 0-.501-.29c-.447-.222-.85-.629-.997-1.189l-.289-1.105c-.029-.11-.101-.143-.137-.146a6.6 6.6 0 0 0-1.142 0M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0M9.5 8a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 9.5 8"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-9P912TGMH2"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-9P912TGMH2",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-9P912TGMH2",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#namerate" class="md-skip">
+          विषय पर बढ़ें
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="शीर्षक">
+    <a href="../" title="NameRate" class="md-header__button md-logo" aria-label="NameRate" data-md-component="logo">
+      
+  <img src="../../assets/nmrt_logo_round_full_mini.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NameRate
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NameRate कैसे काम करता है
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="भाषा चुनें">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../how-it-works/" hreflang="en" class="md-select__link">
+              🇬🇧 English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../de/how-it-works/" hreflang="de" class="md-select__link">
+              🇩🇪 Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ru/how-it-works/" hreflang="ru" class="md-select__link">
+              🇷🇺 Русский
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/how-it-works/" hreflang="es" class="md-select__link">
+              🇪🇸 Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ar/how-it-works/" hreflang="ar" class="md-select__link">
+              🇦🇪 Arabic
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="hi" class="md-select__link">
+              🇮🇳 हिंदी
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../id/how-it-works/" hreflang="id" class="md-select__link">
+              🇮🇩 Bahasa Indonesia
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="खोज" placeholder="खोज" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="खोजें">
+        
+        <button type="reset" class="md-search__icon md-icon" title="हटा दें" aria-label="हटा दें" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            खोज शुरू करें
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="नैविगेशन" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="NameRate" class="md-nav__button md-logo" aria-label="NameRate" data-md-component="logo">
+      
+  <img src="../../assets/nmrt_logo_round_full_mini.png" alt="logo">
+
+    </a>
+    NameRate
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    एक नाम मायने रखता है
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    परियोजना के बारे में
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advantages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NameRate के प्रमुख लाभ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    NameRate कैसे काम करता है
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    NameRate कैसे काम करता है
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="विषय - सूची">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      विषय - सूची
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      डेटा कहाँ से एकत्र किया जाता है
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="डेटा कहाँ से एकत्र किया जाता है">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. निकनेम बिक्री के प्लेटफ़ॉर्म
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. बाजार रुझान
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-nameratebot" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. NameRateBot के माध्यम से उपयोगकर्ता वरीयताएँ
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      एल्गोरिदम के सिद्धांत
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="एल्गोरिदम के सिद्धांत">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      उदाहरण
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tokenomics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    $NMRT की टोकनोमिक्स
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../token-flow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    $NMRT टोकन का परिसंचरण
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../speculation-prevention/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    सट्टेबाजी रोकने के उपाय
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    रोडमैप
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../API/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NameRate API
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new" title="Will be added later">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Presale-Whitelist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Presale Whitelist
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new" title="Will be added later">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dictionary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    शब्दावली
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="विषय - सूची">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      विषय - सूची
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      डेटा कहाँ से एकत्र किया जाता है
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="डेटा कहाँ से एकत्र किया जाता है">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. निकनेम बिक्री के प्लेटफ़ॉर्म
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. बाजार रुझान
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-nameratebot" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. NameRateBot के माध्यम से उपयोगकर्ता वरीयताएँ
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      एल्गोरिदम के सिद्धांत
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="एल्गोरिदम के सिद्धांत">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      उदाहरण
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="namerate"><strong>NameRate कैसे काम करता है</strong></h1>
+<p>NameRate की नींव एक <strong>अनव्याख्येय</strong> मशीन लर्निंग मॉडल पर आधारित है, जिसे अतिरिक्त डेटा के आधार पर लगातार पुनः प्रशिक्षित किया जाता है। जब एक नया परीक्षण मॉडल स्थिर हो जाता है, तो वह मुख्य मॉडल को बदल देता है और प्रशिक्षण नए परीक्षण मॉडल में जारी रहता है।</p>
+<h2 id="_1">डेटा कहाँ से एकत्र किया जाता है</h2>
+<h3 id="1"><strong>1. निकनेम बिक्री के प्लेटफ़ॉर्म</strong></h3>
+<p>ऐसे स्रोतों के सार्वजनिक डेटा, जहाँ निकनेम और डोमेन बेचे जाते हैं। </p>
+<blockquote>
+<p>आज के मुख्य स्रोत हैं:</p>
+<ul>
+<li><strong><a href="https://fragment.com/?filter=auction">Fragment</a></strong> — एक ऐसा प्लेटफ़ॉर्म जो TON में एकीकृत है, जहाँ उपयोगकर्ता निकनेम खरीदते और बेचते हैं।</li>
+<li><strong><a href="https://getgems.io/collection/EQCA14o1-VWhS2efqoh_9M1b_A9DtKTuoqfmkn83AbJzwnPi">GetGems</a></strong> — एक NFT मार्केटप्लेस, जहाँ निकनेम और अन्य डिजिटल एसेट्स का व्यापार होता है।
+</li>
+</ul>
+</blockquote>
+<p><strong>क्या विश्लेषण किया जाता है?</strong></p>
+<ul>
+<li>सफल सौदे: बिक चुके निकनेम, उनके मूल्य और बिक्री की गति।</li>
+<li>असफल लिस्टिंग: निकनेम जो खरीदार नहीं पा सके और इसके कारण (मूल्य, कम मांग आदि)।</li>
+<li>विषयों की लोकप्रियता: मांग वाले श्रेणियाँ, जैसे कि व्यवसाय, क्रिप्टो या नाम।</li>
+</ul>
+<h3 id="2"><strong>2. बाजार रुझान</strong></h3>
+<p>NameRate उन बाहरी डेटा का विश्लेषण करता है जो शब्दों और वाक्यांशों की लोकप्रियता से संबंधित हैं। इसके लिए उपयोग किए जाते हैं:</p>
+<ul>
+<li><strong>सर्च इंजन नीलामियाँ:</strong> संदर्भ विज्ञापन के लिए उपयोग किए जाने वाले आँकड़े।</li>
+<li><strong>ऑनलाइन स्रोत:</strong> इंटरनेट प्रकाशनों में लोकप्रिय शब्द, अक्सर उल्लेखित वाक्यांश।</li>
+<li><strong>सोशल नेटवर्क:</strong> Telegram, Twitter और अन्य प्लेटफ़ॉर्म पर चल रहे रुझान और प्रमुख विषय।</li>
+<li><strong>पॉप कल्चर और साहित्य:</strong> ऐसे शब्द और अभिव्यक्तियाँ जो पॉप कल्चर, किताबों या फिल्मों में अक्सर देखी जाती हैं।</li>
+</ul>
+<h3 id="3-nameratebot"><strong>3. NameRateBot के माध्यम से उपयोगकर्ता वरीयताएँ</strong></h3>
+<p>प्रत्यक्ष प्रशिक्षण डेटा की विशाल मात्रा के बावजूद, <strong>बिक्री के डेटा अभी भी पर्याप्त नहीं हैं</strong> ताकि एल्गोरिदम का गुणवत्ता-सम्मत सत्यापन किया जा सके।</p>
+<p>इसीलिए, हमने उपयोगकर्ताओं की राय प्राप्त करने के लिए Telegram एप्लिकेशन <a href="https://t.me/NameRateBot/namerate">@NameRateBot</a> लॉन्च किया है। हमारे लिए यह <strong>बहुत ही कीमती ज्ञान स्रोत</strong> है, जिसका उपयोग हम मूल्यांकन की गुणवत्ता की जांच के लिए करते हैं। और उपयोगकर्ताओं के लिए यह हमारे टोकन प्राप्त करने का एक अच्छा तरीका है।</p>
+<p>अभी एक tinder-जैसी मैकेनिज्म जोड़ी गई है:</p>
+<ul>
+<li>उपयोगकर्ता निकनेम को दाएँ (पसंद) या बाएँ (नापसंद) स्वाइप करते हैं</li>
+<li>प्रत्येक स्वाइप मॉडल के वज़न की वैधता में मदद करता है</li>
+<li>उपयोगकर्ताओं को $NMRT में इनाम मिलता है</li>
+</ul>
+<div class="admonition annotate note">
+<p>वर्तमान में केवल स्वाइप मैकेनिज्म जोड़ा गया है, पर अगली परीक्षण मॉडल में सुधार के लिए हम अन्य मैकेनिज्म भी जोड़ेंगे, जैसे कि:</p>
+<ul>
+<li>उपयोगकर्ता इनपुट के साथ मैकेनिज्म (1)</li>
+<li>जोड़ीवार तुलना के साथ मैकेनिज्म (2)</li>
+</ul>
+</div>
+<ol>
+<li>यह उपयोगकर्ताओं के मन में आने वाले विचारों को कैप्चर करता है  </li>
+<li>यह मूल्यांकन की सटीकता बढ़ाता है</li>
+</ol>
+<details class="info">
+<summary>धोखाधड़ी से बचाव के लिए</summary>
+<ul>
+<li><strong>स्वाइप सीमा:</strong> प्रति दिन अधिकतम 10 स्वाइप, ताकि हेरफेर न हो</li>
+<li><strong>असामान्य पैटर्न का विश्लेषण:</strong> यदि कोई उपयोगकर्ता बहुत तेज़ या अव्यवस्थित तरीके से निकनेम का मूल्यांकन करता है, तो ऐसे डेटा को बाहर कर दिया जाता है</li>
+</ul>
+</details>
+<hr />
+<h2 id="_2">एल्गोरिदम के सिद्धांत</h2>
+<p>NameRate एक <strong>अनव्याख्येय</strong> ML मॉडल है। इसका मतलब है कि यह ठीक से नहीं बताया जा सकता कि एल्गोरिदम ने कोई विशेष मूल्यांकन क्यों दिया।
+नीचे हम एक <strong>उदाहरण</strong> देंगे जो दिखाता है कि <strong>मुख्य सिद्धांत और सबसे प्रभावशाली विशेषताएँ कैसे काम कर सकती हैं</strong>।</p>
+<div class="admonition info">
+<p><strong>विशेषताएँ और उनके वजन बदलते रहते हैं</strong> जब भी मॉडल का नया संस्करण जारी होता है।</p>
+</div>
+<div class="admonition info annotate">
+<p>वर्तमान एल्गोरिदम नीचे दी गई सभी विशेषताओं का उपयोग करता है, परन्तु केवल इन्हीं तक सीमित नहीं है। <strong>विशेषताओं की व्याख्या केवल संदर्भ के लिए दी गई है</strong> (1)</p>
+</div>
+<ol>
+<li>हमारे प्रोटोटाइप ने इसी प्रकार काम किया था।</li>
+</ol>
+<h3 id="_3">उदाहरण</h3>
+<p>कुछ ऐसे पहलू जिनका प्रभाव अधिक होता है:</p>
+<p><strong>निकनेम की लंबाई</strong> </p>
+<div class="admonition example">
+<p class="admonition-title">जितना छोटा, उतना बेहतर:</p>
+<p><code>@root</code> या <code>@final</code> <code>@longnickname123</code> की तुलना में अधिक मूल्यवान हैं</p>
+</div>
+<p><strong>अक्षरहीन प्रतीक</strong>: जैसे कि अंक या अंडरस्कोर</p>
+<div class="admonition example">
+<p class="admonition-title">निकनेम में संख्याएँ मूल्य कम करती हैं:</p>
+<p><code>@josephine</code> <code>@josephine12345</code> की तुलना में बेहतर है</p>
+</div>
+<div class="admonition note">
+<p>हालांकि, यदि संख्या अर्थ जोड़ती है (जैसे कि <code>@peer2peer</code> या <code>@season4</code>), तो निकनेम का वजन बढ़ जाता है</p>
+</div>
+<p><strong>दोहराव</strong></p>
+<div class="admonition example">
+<p class="admonition-title">आम तौर पर, अक्षरों का दोहराव मूल्य कम कर देता है:</p>
+<p><code>@eeenemy</code> अत्यधिक दोहराव के कारण मूल्य कम हो जाता है। अपवाद: जब दोहराव किसी अर्थपूर्ण शब्द का हिस्सा हो</p>
+</div>
+<div class="admonition note">
+<p>रोचक बात यह है कि अर्थपूर्ण शब्दों के दोहराव का मूल्यांकन पर लगभग कोई प्रभाव नहीं पड़ता</p>
+</div>
+<p><strong>सामंजस्यपूर्ण अर्थ</strong></p>
+<div class="admonition example">
+<p class="admonition-title">वास्तविक शब्द और वाक्यांश अधिक मूल्यवान होते हैं</p>
+<p><code>@space_jaguar</code> <code>@qazws_jaguar</code> की तुलना में बेहतर है</p>
+</div>
+<p><strong>लोकप्रियता:</strong> खोज, साहित्य या सोशल नेटवर्क में चल रहे रुझान</p>
+<div class="admonition example">
+<p class="admonition-title">अधिक लोकप्रिय = बेहतर</p>
+<p><code>@blockchain</code>, <code>@meta_boom</code> या <code>@music</code> उनकी लोकप्रियता के कारण उच्च मूल्यांकन प्राप्त करते हैं</p>
+</div>
+<div class="admonition note">
+<p>रुझानों को स्थिर और गतिशील में विभाजित किया जाता है, साथ ही उनके स्रोतों के आधार पर भी।</p>
+</div>
+<p><strong>विषयगतता</strong>: विषय का मूल्य रुझान और खोज विज्ञापन नीलामी द्वारा निर्धारित होता है।</p>
+<div class="admonition example">
+<p class="admonition-title">शब्दकोश</p>
+<p>हम यह निर्धारित करने के लिए विषयगत शब्दकोश बनाते और अपडेट करते हैं कि निकनेम किस श्रेणी से संबंधित है।</p>
+<p>उदाहरण के लिए: व्यापार, क्रिप्टोकरेंसी, पॉप कल्चर, नाम आदि। पहले स्तर के शब्दकोशों में दूसरे स्तर के शब्दकोश होते हैं।</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">एक कम लोकप्रिय निकनेम भी लोकप्रिय विषय का हिस्सा हो सकता है और इसके विपरीत भी</p>
+<p>उदाहरण: <code>@zkevmbidge</code> इंटरनेट पर लगभग उल्लेखित नहीं होता – जिससे इसका मूल्य कम हो जाता है। हालांकि, यदि यह महंगे विषय – ब्लॉकचेन – से संबंधित है, तो इसका मूल्य बढ़ जाता है।</p>
+</div>
+<p><strong>भौगोलिक संदर्भ</strong>: ये सकारात्मक और नकारात्मक दोनों प्रभाव डालते हैं</p>
+<div class="admonition example">
+<p><code>@NYC_blah</code> या <code>@London_example</code> को अतिरिक्त भौगोलिक विशेषताओं का प्रभाव मिलेगा</p>
+</div>
+<p>यह उन सबसे स्पष्ट और समझने योग्य विशेषताओं की सूची है जिनका प्रभाव अधिक होता है। इसके अलावा, कुछ विशेषताएँ हैं जिन्हें समझना कठिन है (जैसे कि बिक्री इतिहास), अस्थिर विशेषताएँ और वे जिनको हम साझा करने के लिए तैयार नहीं हैं।
+वर्तमान गणना उपरोक्त निष्कर्षों को ध्यान में नहीं रखती, भले ही वे स्पष्ट हों। आप हमें बहुत मदद करते हैं जब आप ऐप में ईमानदारी से उन नामों पर वोट करते हैं जिन्हें आप अच्छा मानते हैं। हमने जानबूझकर "अच्छे" निकनेम के मानदंड नहीं दिए हैं ताकि आप अपनी भावनाओं के अनुसार उत्तर दें।</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="फुटर" >
+        
+          
+          <a href="../advantages/" class="md-footer__link md-footer__link--prev" aria-label="पिछला: NameRate के प्रमुख लाभ">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                पिछला
+              </span>
+              <div class="md-ellipsis">
+                NameRate के प्रमुख लाभ
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../tokenomics/" class="md-footer__link md-footer__link--next" aria-label="आगामी: $NMRT की टोकनोमिक्स">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                आगामी
+              </span>
+              <div class="md-ellipsis">
+                $NMRT की टोकनोमिक्स
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.instant", "navigation.expand", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "\u0915\u094d\u0932\u093f\u092a\u092c\u094b\u0930\u094d\u0921 \u092a\u0930 \u0915\u0949\u092a\u0940 \u0915\u0930 \u0926\u093f\u092f\u093e \u0917\u092f\u093e", "clipboard.copy": "\u0915\u094d\u0932\u093f\u092a\u092c\u094b\u0930\u094d\u0921 \u092a\u0930 \u0915\u0949\u092a\u0940 \u0915\u0930\u0947\u0902", "search.result.more.one": "1 \u0914\u0930 \u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u092a\u0930", "search.result.more.other": "# \u0914\u0930 \u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u092a\u0930", "search.result.none": "\u0915\u094b\u0908 \u092e\u093f\u0932\u093e\u0928 \u0921\u0949\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f \u0928\u0939\u0940\u0902", "search.result.one": "1 \u092e\u093f\u0932\u093e\u0928 \u0921\u0949\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f", "search.result.other": "# \u092e\u093f\u0932\u093e\u0928 \u0921\u093e\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f\u094d\u0938", "search.result.placeholder": "\u0916\u094b\u091c \u0936\u0941\u0930\u0942 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091f\u093e\u0907\u092a \u0915\u0930\u0947\u0902", "search.result.term.missing": "\u095a\u093e\u092f\u092c", "select.version": "\u0935\u0930\u094d\u0936\u0928 \u091a\u0941\u0928\u0947\u0902"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
