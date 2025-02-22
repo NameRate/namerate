@@ -1,5 +1,5 @@
 site_name: NameRate
-site_url: http://docs.namerate.tech
+site_url: https://docs.namerate.tech
 #docs_dir: '/docs'
 
 theme:
@@ -32,8 +32,11 @@ theme:
 extra:
   alternate:
       - name: English
-        link: /en/
+        link: ""
         lang: en
+      - name: Deutsch
+        link: /de/
+        lang: de
       - name: Русский
         link: /ru/
         lang: ru
@@ -87,6 +90,9 @@ plugins:
             name: English
             build: true
             default: true
+          - locale: de
+            name: Deutsch
+            build: true
           - locale: ru
             name: Русский
             build: true
